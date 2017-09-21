@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>画板</title>
+		<link rel="stylesheet" href="huaban.css">
+		<link rel="stylesheet" href="iconfont/iconfont.css">
+	</head>
+	<body>
+	<main>
+		<div class="left">
+			<label for="" class="icon-xiantiao tools" id='line' active='true'></label>
+			<label for="" class="icon-xuxian tools" id='dash'></label>
+			<label for="" class="icon-huabi tools" id='pen'></label>
+			<label for="" class="icon-iconfontwancheng tools" id='circle'></label>
+			<label for="" class="icon-juxing tools" id='arc'></label>
+			<label for="" class="icon-iconfontliubianxing tools" id='six'></label>
+			<label for="" class="icon-wujiaoxingtianchong tools" id='wujx'></label>
+			<label for="" class="icon-xiangpi"></label>
+			<label for="" class="icon-caijian"></label>
+			<label for="" class="icon-iconwenzi wenzi"></label>
+			<label for="" class="icon-tianchong styles" id="fill"></label>
+			<label for="" class="color"><input type="color" style="width: 20px"></label>
+			<label for="" class="icon-miaobian styles" id="stroke"></label>
+			<label for="" class="color"><input type="color" style="width: 20px"></label>
+		</div>
+		<div class="right">
+			<div class="top">
+				<label for="" class="icon-xinjian" active='true'></label>
+				<a for="" class="icon-baocun"></a>
+				<label for="" class="reverse">反向</label>
+			</div>
+			<div class="bottom">
+				<canvas width="1200" height="520px"></canvas>
+				<div class="eraser"></div>
+				<div class="clip"></div>
+				<div class="mask"></div>
+			</div>
+		</div>
+	</main>
+	<script src="js/huaban.js"></script>
+	<script src="js/index.js"></script>
+	</body>
+</html>
